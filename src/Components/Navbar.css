@@ -1,0 +1,62 @@
+.navbars{
+  display: flex;
+  background-color: black;
+  height: 60px;
+ width: 100%;
+  padding-left: 10px;
+}
+.newsmag{
+  display: flex;
+  background-color:red;
+  color:white;
+  width:100px;
+  height: 39px;
+  font-size:18px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 11px;
+  height: 39px;
+}
+.navbars button{
+background-color: black;
+color:white;
+border: 1px solid gray;
+border-radius: 20px;
+margin-left: 9px;
+margin-top: 5px;
+height: 45px;
+width: 80px;
+}
+.input{
+  height:40px;
+  margin: 9px 0 0 850px;
+  border-radius: 20px;
+}
+@media(max-width:1167px){
+  .navbars{
+    width:100%;
+  }
+  .input{
+   
+   margin-left:auto ;
+  }
+  .navbars button{
+    width: 5rem;
+  }
+ 
+}
+
+@media(max-width:567px){
+  .navbars{
+    width:100%;
+  }
+  .input{
+   
+   margin: 9px 0 0 10px;
+  }
+  .navbars button{
+    width: 5rem;
+  }
+}
